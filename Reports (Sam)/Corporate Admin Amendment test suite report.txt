@@ -1,0 +1,54 @@
+Corporate Admin CRUD
+	- Navigate to Order Entry page
+		- Test scope
+			- To verify if the Order Entry page exists
+		- Expected results
+			- The Corporate record is created with an empty list of Order Entries
+		- Test steps
+			- navigate to Corporate Admin
+			- create a new corporate record
+			- click the icon in the column to navigate to the Order Entry page
+			- verify that new records are created with an empty list of Order Entry items
+			- After the record is created and verified, navigate back to the main Corporate Admin page and delete the corporate record
+	- Create Order Entry Item
+		-Test scope
+			- To verify if Order Entry items can be created successfully
+		- Expected results
+			- A new Order Entry item will be added to the Order Entry datatable after one is created
+			- The default status of a newly created Order Entry item is "Draft"
+		- Test steps
+			- navigate to Corporate Admin
+			- create a new corporate record
+			- click the icon in the column to navigate to the Order Entry page
+			- create a new order entry items
+			- verify the status for the newly created record is "Draft"
+			- delete the corporate record
+	- Edit Order Entry
+		- Test scope
+			- To verify that the edit form for Order Entry items successfully changes the values for fields
+		- Expected results
+			- The form field values are changed according to what was edited
+		- Test steps
+			- navigate to Corporate Admin
+			- create a new corporate record
+			- click the icon in the column to navigate to the Order Entry page
+			- click "new" to create an Order Entry item and create a new Order Entry item
+			- click "edit" icon for the recently created Order Entry item
+			- change the value of contact_phone
+			- click submit
+			- click the "edit" icon for the same record
+			- verify that the value of the contact_phone field is the same as what was input in the edit form
+			- delete the corporate record
+	- Verify Create Order Entry new field
+		- Test scope
+			- To verify that are there new fields added to the Order Entry form
+		- Expected results
+			- New fields are added to the Order Entry form such as promotion, external remarks etc.
+		- Test steps
+			- navigate to Corporate Admin
+			- create a new corporate record
+			- click the icon in the column to navigate to the Order Entry page
+			- click "new" to create an Order Entry item
+			- Verify that the form has "Promotion" and "External Remark" in the fields
+			- Verify if there the Ledger and Order Entry icon buttons are present in the Action column
+			

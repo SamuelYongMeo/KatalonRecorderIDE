@@ -1,0 +1,18 @@
+Allow Duplicate Tender POS
+	- Duplicate Tender POS
+		- Key NOTES
+			- due to the nature of Quote Admin refreshing it's records everyday, the value of the barcode used in POS Admin needs to be adjusted whenever testing is done
+		- Test scope
+			- To verify that users are able to create multiple similar tenders for the same POS in POS Admin
+		- Expected results
+			- Users are able to create multiple tenders for the same POS with no errors
+		- Pre-condition
+			- Make sure that there are records in Quote Admin that can be used
+		- Test steps
+			- Navigate to POS page
+			- Insert the barcode for an existing quote (must be available in Quote Admin)
+			- Click "Manage"
+			- Add two Tenders of the same type
+			- Click "Submit"
+			- Under the "Tender" table, verify that the two records are the same type
+				- If the two titles under the "Type" column is the same, then PASSED.

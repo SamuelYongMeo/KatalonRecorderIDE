@@ -1,0 +1,85 @@
+Corporate Admin Test Suite
+	- Corporate Admin Filter (Incomplete) **Incomplete due to being unable to properly check for Toggle status
+		- Test Scope
+			- This test case should verify the Corporate Partner filter but as of right now to really check if it's a Corporate Partner we would need to check the Toggle button but we are currently devising a way to check 			for the status of toggle buttons as there is no direct way of doing so.
+		- Expected results
+			- The Corporate Partner filter will be able to retrieve records which are either Corporate Partner or not one
+		- Test steps
+			- Navigate to Corporate Admin 
+			- Select either Yes or No for the Corporate Partner field
+			- Click on Filter
+			- Verify that the records filtered are either Corporate Partner or not, based on what was selected. This verification can be done by clicking on the Edit button and checking for the Corporate Partner Toggle to 			see if its switched On or Off.
+			- Toggle ON = Corporate Partner, Toggle OFF = NOT Corporate Partner
+	- Corporate Admin Hotfix
+		- Test Scope
+			- This test case is able to verify if the error when clicking the expand button in view ledger detail to be fixed
+		- Expected results
+			- The expand button will not cause an error to happen 
+		- Test steps
+			- Navigate to Corporate Admin
+			- Click on view Ledger
+			- Click on the Expand button if it has a record
+			- Verify if no error has occurred
+	- Corporate Admin External remark column
+		- Test Scope
+			- This test case verifies if the External Remark column in Corporate Admin 
+		- Expected results
+			- The External Remark column is present 
+		- Test steps
+			- Navigate to Corporate Admin
+			- Locate and verify if External Remark column is present
+	- Corporate Partner (New tab)
+		- Test Scope
+			- This test case is to verify if the new tab for Corporate partner has added
+		- Expected results
+			- The side-panel shows that there is a new tab called Corporate Partner
+		- Test steps
+			- Click on CMS
+			- Verify if the title Corporate Partner is there
+
+Corporate Discount Rate Test Suite
+	- Corporate Subsidy Field
+		- Test scope
+			- This test case is to check if the Corporate Subsidy field is in the tab when creating a new record in Corporate Admin
+		- Expected results
+			- The field Corporate Subsidy is in the tab
+		- Test steps
+			- Navigate to Corporate Admin
+			- Click on New
+			- Verify if Corporate Subsidy is present
+ 
+	- Corporate Subsidy Field Validation (Incomplete) **but as of right now Katalon Recorder is unable to enter a negative value into the field as it ignores inputting the (-) for a negative value.
+		- Test scope
+			- This test case is to check if the Corporate Subsidy field will validate the values entered into the field
+		-  Expected results
+			- An error will occur when trying to enter values that don't fit the criteria
+		- Test steps
+			- Enter a negative value in Corporate Subsidy
+			- Verify if an error is telling you to enter a value between 0-100, move on to the next verification if it passes, stop if it fails
+			- Enter a value above 100 
+			- Verify if an error is telling you to enter a value between 0-100
+	- Corporate Discount rate First Tier
+		- Test scope
+			- This test case is to check if the First tier is selected, the Tier in Corporate Admin and Corporate Partner will show First tier and in Corporate Partner, the Promotion Discount rate will show 10%
+		- Expected results
+			- The Tier in Corporate Admin and Corporate Partner will show as First Tier and in Corporate Partner, the Promotion Discount Rate will display the value 10%
+		- Test steps
+			- Enter a record with the Tier set to First Tier
+			- Verify if in the datatable it shows the changes to the Tier column and also the Promotion Discount Rate
+	- Corporate Discount rate Top Tier
+		- Test scope
+			- This test case is to check if the Top tier is selected, the Tier in Corporate Admin and Corporate Partner will show Top tier and in Corporate Partner, the Promotion Discount rate will show 15%
+		- Expected results
+			- The Tier in Corporate Admin and Corporate Partner will show as Top Tier and in Corporate Partner, the Promotion Discount Rate will display the value 15%
+		- Test steps
+			- Enter a record with the Tier set to Top Tier
+			- Verify if in the datatable it shows the changes to the Tier column and also the Promotion Discount Rate
+	- Corporate Discount rate None Tier
+		- Test scope
+			- This test case is to check if the None tier is selected, the Tier in Corporate Admin and Corporate Partner will show None tier and in Corporate Partner, the Promotion Discount rate will show 0%
+		- Expected results
+			- The Tier in Corporate Admin and Corporate Partner will show as None Tier and in Corporate Partner, the Promotion Discount Rate will display the value 0%
+		- Test steps
+			- Enter a record with the Tier set to None Tier
+			- Verify if in the datatable it shows the changes to the Tier column and also the Promotion Discount Rate
+ 
