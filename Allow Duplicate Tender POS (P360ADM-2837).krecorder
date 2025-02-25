@@ -8,7 +8,7 @@
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3" data-tags="">Duplicate Tender POS</td></tr>
+<tr><td rowspan="1" colspan="3" data-tags="POS Admin">Duplicate Tender POS</td></tr>
 </thead>
 <tbody>
 <tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/dashboard<datalist><option>https://uat360-adminpanel.pure-international.com/dashboard</option></datalist></td><td></td></tr>
