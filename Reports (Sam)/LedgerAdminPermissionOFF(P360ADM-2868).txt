@@ -1,0 +1,52 @@
+Ledger Schedule Admin Permission ON (P360ADM-2868)
+- View permission OFF
+	- Test scope
+		- Test the "View" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn OFF the View permission for the Ledger Schedule Admin link
+	- Test steps
+		- Verify that the Ledger Schedule Admin link is no longer available in the sidemenu
+		- Open the Ledger Schedule Admin page via URL
+	- Expected results
+		- The Ledger Schedule Admin link is no longer available in the sidemenu
+		- Opening the page via URL will throw an authorisation error
+- Add permission ON
+	- Test scope
+		- Test the "Add" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Add Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the "New" button above the datatable is visible
+	- Expected results
+		- The "New" button is visible above the datatable
+- Edit permission ON
+	- Test scope
+		- Test the "Edit" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Edit Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the Edit icon is visible in the Action column
+	- Expected results
+		- The Edit icon is visible in the Action column
+- Delete permission ON
+	- Test scope
+		- Test the "Delete" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Delete Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the Delete icon is visible in the Action column
+	- Expected results
+		- The Delete icon is visible in the Action column
+- Void permission ON
+	- Test scope
+		- Test the "Void" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Void Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the Void icon is visible in the Action column
+	- Expected results
+		- The Void icon is visible in the Action column

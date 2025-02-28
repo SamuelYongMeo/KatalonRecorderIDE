@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>Ledger Schedule Admin Permission OFF (P360ADM-2868)</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="Ledger Schedule Admin">View permission OFF</td></tr>
+</thead>
+<tbody>
+<tr><td>#</td><td>COMMENT<datalist><option>COMMENT</option></datalist></td><td>Turn OFF the View permission before running the test case</td></tr>
+<tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/dashboard<datalist><option>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin</option><option>https://uat360-adminpanel.pure-international.com/dashboard</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/layout-sidebar/sidebar-nav/div/input<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/layout-sidebar/sidebar-nav/div/input</option><option>xpath=//div/input</option><option>css=input.search-input.ant-input.ng-valid.ng-dirty.ng-touched</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/layout-sidebar/sidebar-nav/div/input<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/layout-sidebar/sidebar-nav/div/input</option><option>xpath=//div/input</option><option>css=input.search-input.ant-input.ng-valid.ng-dirty.ng-touched</option></datalist></td><td>ledger</td></tr>
+<tr><td>verifyElementNotPresent</td><td>link=Ledger Schedule Admin<datalist><option>link=Ledger Schedule Admin</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="Ledger Schedule Admin">Add permission OFF</td></tr>
+</thead>
+<tbody>
+<tr><td>#</td><td>COMMENT<datalist><option>COMMENT</option></datalist></td><td>Turn Add permission ON before running this test case</td></tr>
+<tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin<datalist><option>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th</option></datalist></td><td></td></tr>
+<tr><td>verifyElementNotPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/div/button<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/div/button</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="Ledger Schedule Admin">Edit Permission OFF</td></tr>
+</thead>
+<tbody>
+<tr><td>#</td><td>COMMENT<datalist><option>COMMENT</option></datalist></td><td>Turn Edit permission OFF before running this test case</td></tr>
+<tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin<datalist><option>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th</option></datalist></td><td></td></tr>
+<tr><td>verifyElementNotPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div/div/button<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div/div/button</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="Ledger Schedule Admin">Delete permission OFF</td></tr>
+</thead>
+<tbody>
+<tr><td>#</td><td>COMMENT<datalist><option>COMMENT</option></datalist></td><td>Turn Delete permission OFF before running this test case</td></tr>
+<tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin<datalist><option>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th</option></datalist></td><td></td></tr>
+<tr><td>verifyElementNotPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div[2]/div/button<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div/div/button</option><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div[2]/div/button</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="Ledger Schedule Admin">Void permission OFF</td></tr>
+</thead>
+<tbody>
+<tr><td>#</td><td>COMMENT<datalist><option>COMMENT</option></datalist></td><td>Turn Void permission OFF before running this test case</td></tr>
+<tr><td>open</td><td>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin<datalist><option>https://uat360-adminpanel.pure-international.com/ledger-schedule-admin</option></datalist></td><td></td></tr>
+<tr><td>waitForElementPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/thead/tr/th</option></datalist></td><td></td></tr>
+<tr><td>verifyElementNotPresent</td><td>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div[4]/div/button<datalist><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div[4]/div/button</option><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div[2]/div/button</option><option>xpath=//app-root[@id='app']/main/cms/ngx-sw-scanner-detection/nz-spin/div/nz-layout/nz-layout/nz-layout/nz-content/ledger-schedule/datatable/filter-datatable/basic-datatable/nz-table/nz-spin/div/div/div/div/div/table/tbody/tr/td[8]/div/div/div/button</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

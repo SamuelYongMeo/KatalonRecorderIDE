@@ -1,0 +1,52 @@
+Ledger Schedule Admin Permission ON (P360ADM-2868)
+- View permission ON
+	- Test scope
+		- Test the "View" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the View Permission for Ledger Schedule Admin
+	- Test steps
+		- Check if the sidebar contains the Ledger Schedule Admin link
+		- Click on the link
+		- Verify that the Ledger Schedule Admin datatable is present
+	- Expected results
+		- The Ledger Schedule Admin page should be available to be nagivated towards
+- Add permission ON
+	- Test scope
+		- Test the "Add" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the View Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the "New" button above the datatable is visible
+	- Expected results
+		- The "New" button is visible
+- Edit permission ON
+	- Test scope
+		- Test the "Edit" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Edit Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the "Edit" icon in the Action column for any one of the records are visible
+	- Expected results
+		- The Edit icon is visible in the Action column
+- Delete permission ON
+	- Test scope
+		- Test the "Delete" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Delete Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the "Delete" icon in the Action column for any one of the records are visible
+	- Expected results
+		- The Delete icon is visible in the Action column
+- Void permission ON
+	- Test scope
+		- Test the "Void" permission for Ledger Schedule Admin via the Role Admin page
+	- Pre-condition
+		- Turn ON the Void Permission for Ledger Schedule Admin
+	- Test steps
+		- Navigate to Ledger Schedule Admin page
+		- Verify that the "Void" icon in the Action column for any one of the records are visible
+	- Expected results
+		- The Void icon is visible in the Action column
